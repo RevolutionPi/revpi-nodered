@@ -1,0 +1,22 @@
+Source: revpi-nodered
+Section: electronics
+Priority: optional
+Maintainer: KUNBUS GmbH <support@kunbus.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://revolutionpi.com/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/RevolutionPi/revpi-nodered.git -b raspios/bullseye
+Vcs-Browser: https://github.com/RevolutionPi/revpi-nodered
+
+Package: revpi-nodered-proxy-apache
+Architecture: all
+Multi-Arch: foreign
+Depends:
+  ${misc:Depends},
+  apache2,
+  webstatus
+Description: Revolution Pi Node-RED Reverse Proxy configuration for Apache
+ Apache2 configuration to enable a secure reverse proxy for insecure Node-RED
+ traffic. Revolution Pi is a set of IoT products based on the Raspberry Pi and
+ geared towards industrial usage.

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+	configure)
+		if [ -z "$2" ]; then
+			a2enmod -q ssl proxy proxy_http
+			a2ensite revpi-nodered-proxy
+		fi
+		;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+		;;
+
+	*)
+		printf "postinst called with unknown argument: %s\n" "$1" >&2
+		exit 1
+		;;
+esac
+
+#DEBHELPER#
+
+exit 0
