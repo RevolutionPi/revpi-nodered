@@ -15,7 +15,7 @@ Multi-Arch: foreign
 Depends:
   ${misc:Depends},
   apache2,
-  webstatus
+  revpi-webstatus
 Description: Revolution Pi Node-RED Reverse Proxy configuration for Apache
  Apache2 configuration to enable a secure reverse proxy for insecure Node-RED
  traffic. Revolution Pi is a set of IoT products based on the Raspberry Pi and
