@@ -21,3 +21,16 @@ RevPi.
 
 Certain configuration is needed to run NodeRED on the RevPi in an acceptable
 manner. These are stored in the `config` directory.
+
+### proxy-apache
+
+The Apache2 configuration file in the folder "proxy-apache" is placed in the
+folder "/etc/apache2/sites-available" on the Debian system. Subsequently, this
+configuration is activated via `a2ensite revpi-nodered-proxy`, which is
+activated by a `systemctl reload apache2` of Apache2.
+
+Through this configuration, the certificates of the "RevPi-Cert-Wizard" are
+applied to an SSL connection and Node-RED is secured by SSL via port 41880. For
+this to work, the actual Node-RED server must be configured to the local IP
+127.0.0.1 and port 1881. This ensures that Node-RED is not directly accessible
+from the outside, but only via the Apache web server via SSL.
