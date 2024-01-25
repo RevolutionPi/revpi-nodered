@@ -34,3 +34,42 @@ applied to an SSL connection and Node-RED is secured by SSL via port 41880. For
 this to work, the actual Node-RED server must be configured to the local IP
 127.0.0.1 and port 1881. This ensures that Node-RED is not directly accessible
 from the outside, but only via the Apache web server via SSL.
+
+### systemd
+
+The systemd Unit file starts the Node-RED service in the background as a
+service. The service is bound to port 1881 on localhost 127.0.0.1. The packaging
+would install the file "nodered.service" in "/lib/systemd/system", if this file
+is installed manually, it should be stored in /etc/systemd/system".
+
+The unit file prevades the user "nodered" on the system who has the home
+directory "/var/lib/revpi-nodered." This user can be created as follows:
+
+`adduser --system --home /var/lib/revpi-nodered --group nodered`
+
+> If the user wants to use the RS485 interface with Node-RED, the group must be
+> changed from "Group=nodered" to "Group=dialout" in the unit file.
+
+#### Used sandbox techniques of systemd
+
+The started process is secured by systemd, despite its own user, by securing
+functions of systemd. The entire file system, except the paths "/dev", "/proc"
+and "/sys", is read-only accessible for the process through the
+"ProtectSystem=strict" parameter.
+
+In order to give the user the possibility to write data via Node-RED, the home
+directory is released again for write access by
+"ReadWritePaths=/var/lib/revpi-nodered".
+
+> The directory "/var/lib/revpi-nodered" is the only place where the process can
+> write files.
+
+The paths "/boot", "/home" and "/root" are completely blocked for all access for
+the process. This is set via "InaccessiblePaths."
+
+We have set further protect functions, which will be recommended when using
+"[ProtectSystem](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#ProtectSystem=)".
+
+- [ProtectControlGroups](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#ProtectControlGroups=)=yes
+- [ProtectKernelModules](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#ProtectKernelModules=)=yes
+- [ProtectKernelTunables](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#ProtectKernelTunables=)=yes
