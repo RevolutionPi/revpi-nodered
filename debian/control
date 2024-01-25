@@ -2,12 +2,25 @@ Source: revpi-nodered
 Section: electronics
 Priority: optional
 Maintainer: KUNBUS GmbH <support@kunbus.com>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+  dh-sysuser,
+  debhelper-compat (= 13)
 Standards-Version: 4.6.2
 Homepage: https://revolutionpi.com/
 Rules-Requires-Root: no
 Vcs-Git: https://gitlab.com/revolutionpi/revpi-nodered.git -b debian/bookworm
 Vcs-Browser: https://gitlab.com/revolutionpi/revpi-nodered
+
+Package: revpi-nodered
+Architecture: all
+Multi-Arch: foreign
+Depends:
+  nodejs (>= 18),
+  ${misc:Depends}
+Description: Revolution Pi Node-RED Server
+ This package installs a systemd unit file to run Node-RED as a server process
+ in the background. The Node-RED process is executed under the own system user
+ "nodered" and restricted to certain access via sandbox settings of systemd.
 
 Package: revpi-nodered-proxy-apache
 Architecture: all
