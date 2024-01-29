@@ -1,3 +1,20 @@
+revpi-nodered (1.1.0-1+revpi12+1) bookworm; urgency=medium
+
+  [ Thomas Böhler ]
+  * chore: Add move to GitLab to README
+
+  [ Philipp Rosenberger ]
+  * Switch back to the debian/ namespace
+
+  [ Sven Sager ]
+  * fix(apache): Change redirect status code to default of 302
+  * doc(apache): Explain the use of the apache2 configuration
+  * feat(systemd): Add systemd unit file with sandboxing options
+  * doc(systemd): Add systemd unit file with sandboxing options
+  * feat(deb): Create package revpi-nodered
+
+ -- Sven Sager <s.sager@kunbus.com>  Mon, 29 Jan 2024 10:18:29 +0100
+
 revpi-nodered (1.0.0-1+revpi12+1) bookworm; urgency=medium
 
   * Update package for bookworm
