@@ -1,3 +1,9 @@
+revpi-nodered (1.1.0-1+revpi12+2) bookworm; urgency=medium
+
+  * fix(deb): Set home dir of user nodered to the same as in the systemd file
+
+ -- Sven Sager <s.sager@kunbus.com>  Fri, 12 Apr 2024 09:47:11 +0200
+
 revpi-nodered (1.1.0-1+revpi12+1) bookworm; urgency=medium
 
   [ Thomas Böhler ]
