@@ -1,2 +1,2 @@
 # User nodered is used in systemd unit file
-nodered             home
+nodered             home=/var/lib/revpi-nodered
