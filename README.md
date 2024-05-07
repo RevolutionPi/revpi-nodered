@@ -17,6 +17,18 @@ prefer that.
 This repository contains the necessary files to have NodeRED running on the
 RevPi.
 
+## Makefile
+
+- `build`: Runs `npm ci` to install dependencies from the lock file, 
+  ensuring a clean, predictable state.
+- `update-all`: Executes `npm update` to update all packages to the latest 
+  versions allowed by the `package.json` constraints.
+- `update-nodered`: Adds a target to check the current installed
+  version of Node-RED against the latest available version. If the
+  latest version is greater than the specified minimum version (3.1.9),
+  it triggers an update.
+- `start`: Installs dependencies and start the local Node-RED.
+
 ## Configuration
 
 Certain configuration is needed to run NodeRED on the RevPi in an acceptable
