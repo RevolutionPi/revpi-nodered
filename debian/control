@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: KUNBUS GmbH <support@kunbus.com>
 Build-Depends:
   dh-sysuser,
-  debhelper-compat (= 13)
+  debhelper-compat (= 13),
+  npm,
 Standards-Version: 4.6.2
 Homepage: https://revolutionpi.com/
 Rules-Requires-Root: no
