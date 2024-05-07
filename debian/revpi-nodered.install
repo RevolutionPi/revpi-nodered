@@ -1,1 +1,2 @@
-config/systemd/nodered.service          /lib/systemd/system
+config/systemd/nodered.service          lib/systemd/system/
+node_modules                            usr/share/revpi-nodered/
