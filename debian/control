@@ -13,11 +13,12 @@ Vcs-Git: https://gitlab.com/revolutionpi/revpi-nodered.git -b debian/bookworm
 Vcs-Browser: https://gitlab.com/revolutionpi/revpi-nodered
 
 Package: revpi-nodered
-Architecture: all
+Architecture: any
 Multi-Arch: foreign
 Depends:
   nodejs (>= 18),
-  ${misc:Depends}
+  ${misc:Depends},
+  ${shlibs:Depends},
 Breaks:
   noderedrevpinodes-server (<< 1.0.5~),
   noderedrevpinodes-server (>= 1.0.6~),
