@@ -18,6 +18,11 @@ Multi-Arch: foreign
 Depends:
   nodejs (>= 18),
   ${misc:Depends}
+Breaks:
+  noderedrevpinodes-server (<< 1.0.5~),
+  noderedrevpinodes-server (>= 1.0.6~),
+Suggests:
+  noderedrevpinodes-server,
 Description: Revolution Pi Node-RED Server
  This package installs a systemd unit file to run Node-RED as a server process
  in the background. The Node-RED process is executed under the own system user
