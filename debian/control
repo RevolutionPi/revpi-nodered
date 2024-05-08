@@ -21,6 +21,10 @@ Depends:
 Breaks:
   noderedrevpinodes-server (<< 1.0.5~),
   noderedrevpinodes-server (>= 1.0.6~),
+Conflicts:
+  node-red-contrib-revpi-nodes,
+Replaces:
+  node-red-contrib-revpi-nodes,
 Suggests:
   noderedrevpinodes-server,
 Description: Revolution Pi Node-RED Server
