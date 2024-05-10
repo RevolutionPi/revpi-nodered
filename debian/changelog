@@ -1,3 +1,26 @@
+revpi-nodered (1.2.0-1+revpi12+1) bookworm; urgency=medium
+
+  [ Lukas Zech ]
+  * feat(package): Add package.json for node-red
+
+  [ Marc Kittner ]
+  * feat(makefile): Add make targets to create environment and tooling
+
+  [ Sven Sager ]
+  * docs: Documentation for the Makefile
+
+  [ Lukas Zech ]
+  * feat(systemd): systemd unit uses package installed node-red
+
+  [ Sven Sager ]
+  * feat(deb): Add npm as build dependency
+  * feat(deb): Install revpi-nodered node_modules
+  * feat(deb): Declare relationship with noderedrevpinodes-server
+  * feat(deb): Define conflict with node-red-contrib-revpi-nodes Package
+  * feat(deb): Change package architecutre from all to any
+
+ -- Sven Sager <s.sager@kunbus.com>  Fri, 10 May 2024 08:08:53 +0200
+
 revpi-nodered (1.1.0-1+revpi12+2) bookworm; urgency=medium
 
   * fix(deb): Set home dir of user nodered to the same as in the systemd file
