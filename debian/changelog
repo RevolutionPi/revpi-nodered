@@ -1,3 +1,9 @@
+revpi-nodered (1.2.0-1+revpi12+2) bookworm; urgency=medium
+
+  * fix(deb): Add dependency of revpi-nodered to revpi-nodered-proxy-apache
+
+ -- Sven Sager <s.sager@kunbus.com>  Wed, 22 May 2024 11:34:32 +0200
+
 revpi-nodered (1.2.0-1+revpi12+1) bookworm; urgency=medium
 
   [ Lukas Zech ]
