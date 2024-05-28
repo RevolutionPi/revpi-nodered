@@ -1,1 +1,1 @@
-config/proxy-apache/revpi-nodered-proxy.conf	/etc/apache2/sites-available/
+config/proxy-apache/revpi-nodered-proxy.conf	usr/share/revpi-webserver/apache2/sites

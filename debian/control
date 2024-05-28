@@ -40,9 +40,13 @@ Architecture: all
 Multi-Arch: foreign
 Depends:
   ${misc:Depends},
-  apache2,
   revpi-cert-wizard,
   revpi-nodered,
+  revpi-webserver-apache,
+Breaks:
+  revpi-nodered-proxy-nginx,
+Replaces:
+  revpi-nodered-proxy-nginx,
 Description: Revolution Pi Node-RED Reverse Proxy configuration for Apache
  Apache2 configuration to enable a secure reverse proxy for insecure Node-RED
  traffic. Revolution Pi is a set of IoT products based on the Raspberry Pi and
