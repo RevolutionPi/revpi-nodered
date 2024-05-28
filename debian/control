@@ -30,6 +30,8 @@ Replaces:
   node-red-contrib-revpi-nodes,
 Suggests:
   noderedrevpinodes-server,
+Recommends:
+  revpi-nodered-proxy-apache | revpi-nodered-proxy-nginx,
 Description: Revolution Pi Node-RED Server
  This package installs a systemd unit file to run Node-RED as a server process
  in the background. The Node-RED process is executed under the own system user
