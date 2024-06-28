@@ -1,0 +1,61 @@
+---
+name: bcrypt
+version: 5.1.0
+type: npm
+summary: A bcrypt library for NodeJS.
+homepage:
+license: other
+licenses:
+- sources: LICENSE
+  text: |-
+    Copyright (c) 2010 Nicholas Campbell
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+- sources: README.md
+  text: |-
+    Unless stated elsewhere, file headers or otherwise, the license as stated in the LICENSE file.
+
+    [bcryptwiki]: https://en.wikipedia.org/wiki/Bcrypt
+    [bcryptgs]: http://mail-index.netbsd.org/tech-crypto/2002/05/24/msg000204.html
+    [codahale]: http://codahale.com/how-to-safely-store-a-password/
+    [gh13]: https://github.com/ncb000gt/node.bcrypt.js/issues/13
+    [jtr]: http://www.openwall.com/lists/oss-security/2011/06/20/2
+    [depsinstall]: https://github.com/kelektiv/node.bcrypt.js/wiki/Installation-Instructions
+    [timingatk]: https://codahale.com/a-lesson-in-timing-attacks/
+    [wrap-around-bug]: https://github.com/kelektiv/node.bcrypt.js/wiki/Security-Issues-and-Concerns#bcrypt-wrap-around-bug-medium-severity
+    [improper-nuls]: https://github.com/kelektiv/node.bcrypt.js/wiki/Security-Issues-and-Concerns#improper-nul-handling-medium-severity
+
+    [shadowfiend]:https://github.com/Shadowfiend
+    [thegoleffect]:https://github.com/thegoleffect
+    [pixelglow]:https://github.com/pixelglow
+    [dtrejo]:https://github.com/dtrejo
+    [alfredwesterveld]:https://github.com/alfredwesterveld
+    [newitfarmer]:https://github.com/newitfarmer
+    [zooko]:https://twitter.com/zooko
+    [vincentr]:https://twitter.com/vincentcr
+    [lloyd]:https://github.com/lloyd
+    [shtylman]:https://github.com/shtylman
+    [vadimg]:https://github.com/vadimg
+    [bnoordhuis]:https://github.com/bnoordhuis
+    [tootallnate]:https://github.com/tootallnate
+    [seanmonstar]:https://github.com/seanmonstar
+    [weareu]:https://github.com/weareu
+    [recrsn]:https://github.com/recrsn
+    [NickNaso]: https://github.com/NickNaso
+notices: []
