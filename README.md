@@ -21,13 +21,28 @@ RevPi.
 
 - `build`: Runs `npm ci` to install dependencies from the lock file, 
   ensuring a clean, predictable state.
-- `update-all`: Executes `npm update` to update all packages to the latest 
+- `update-all`: Updates all dependencies and refreshes the licence information 
+- `update-npm`: Executes `npm update` to update all packages to the latest 
   versions allowed by the `package.json` constraints.
-- `update-nodered`: Adds a target to check the current installed
+- `update-license`: If the dependencies have been updated, the license files and NOTICE file
+  in .license/ need to ne updated as well,  which will be done by calling `licensed`
+- `show-latest-node-red`: Checks the current installed
   version of Node-RED against the latest available version. If the
   latest version is greater than the specified minimum version (3.1.9),
-  it triggers an update.
+  it exits with an error.
 - `start`: Installs dependencies and start the local Node-RED.
+
+## Building
+
+### Generating 3rd party licence information
+The repository should always contain files that describe the licence of the used 3rd party dependencies for packaging.
+If the dependencies are updated or somehow altered, you must refresh the licence data using the tool
+[`licensed`](https://github.com/github/licensed/tree/main) by calling the build target `update-license`
+
+Make sure have this tool installed before updating the dependencies.
+[Installation](https://github.com/github/licensed/tree/main)
+
+Commit the changed licence files together with the changes in package-lock.json/package.json.
 
 ## Configuration
 

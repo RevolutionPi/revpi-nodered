@@ -3,8 +3,14 @@ all: build
 build:
 	npm ci
 
-update-all:
+update-npm:
 	npm update
+
+update-license:
+	licensed cache
+	licensed notices
+
+update-all: update-npm update-license
 
 show-latest-node-red:
 	npm outdated node-red
