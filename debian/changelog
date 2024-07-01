@@ -1,3 +1,14 @@
+revpi-nodered (1.4.0-1+revpi12+1) bookworm; urgency=medium
+
+  * feat(license) Add .licensed.yml configuration file
+  * feat(license): Add build targets for license info
+  * chore(dep): Update package-lock.json
+  * feat(license): Add third-party license notices
+  * feat(deb): Add copyright or bundled libraries
+  * feat(deb): Set version range of supporting nodes-server
+
+ -- Marc Kittner <m.kittner@kunbus.com>  Mon, 01 Jul 2024 14:36:15 +0000
+
 revpi-nodered (1.3.1-1+revpi12+1) bookworm; urgency=medium
 
   * fix(apache): Use root of apache default log dir
