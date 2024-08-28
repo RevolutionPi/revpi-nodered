@@ -1,6 +1,6 @@
 ---
 name: passport
-version: 0.6.0
+version: 0.7.0
 type: npm
 summary: Simple, unobtrusive authentication for Node.js.
 homepage: https://www.passportjs.org/

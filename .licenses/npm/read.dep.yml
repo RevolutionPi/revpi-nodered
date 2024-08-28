@@ -1,6 +1,6 @@
 ---
 name: read
-version: 1.0.7
+version: 3.0.1
 type: npm
 summary: read(1) for node programs
 homepage:

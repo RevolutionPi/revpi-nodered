@@ -1,6 +1,6 @@
 ---
 name: commist
-version: 1.1.0
+version: 3.2.0
 type: npm
 summary: Build your commands on minimist!
 homepage: https://github.com/mcollina/commist
@@ -10,7 +10,7 @@ licenses:
   text: |
     The MIT License (MIT)
 
-    Copyright (c) 2014 Matteo Collina
+    Copyright (c) 2014-2022 Matteo Collina
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

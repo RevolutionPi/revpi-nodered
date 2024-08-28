@@ -1,6 +1,6 @@
 ---
 name: tough-cookie
-version: 4.1.3
+version: 4.1.4
 type: npm
 summary: RFC6265 Cookies and Cookie Jar for node.js
 homepage: https://github.com/salesforce/tough-cookie
