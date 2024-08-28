@@ -1,6 +1,6 @@
 ---
 name: help-me
-version: 3.0.0
+version: 5.0.0
 type: npm
 summary: Help command for node, partner of minimist and commist
 homepage: https://github.com/mcollina/help-me
@@ -10,7 +10,7 @@ licenses:
   text: |+
     The MIT License (MIT)
 
-    Copyright (c) 2014 Matteo Collina
+    Copyright (c) 2014-2022 Matteo Collina
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

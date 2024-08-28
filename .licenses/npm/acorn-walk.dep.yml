@@ -1,6 +1,6 @@
 ---
 name: acorn-walk
-version: 8.2.0
+version: 8.3.2
 type: npm
 summary: ECMAScript (ESTree) AST walker
 homepage: https://github.com/acornjs/acorn

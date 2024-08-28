@@ -1,6 +1,6 @@
 ---
 name: mqtt
-version: 4.3.7
+version: 5.7.0
 type: npm
 summary: A library for the MQTT protocol
 homepage:
