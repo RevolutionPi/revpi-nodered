@@ -17,6 +17,7 @@ Architecture: any
 Multi-Arch: foreign
 Depends:
   nodejs (>= 18),
+  npm,
   ${misc:Depends},
   ${shlibs:Depends},
 Breaks:
