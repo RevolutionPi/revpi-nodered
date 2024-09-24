@@ -13,6 +13,6 @@
   "homepage": "https://gitlab.com/revolutionpi/revpi-nodered#readme",
   "dependencies": {
     "node-red": "4.0.2",
-    "node-red-contrib-revpi-nodes": "1.1.0"
+    "node-red-contrib-revpi-nodes": "1.2.2"
   }
 }
