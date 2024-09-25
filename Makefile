@@ -6,7 +6,7 @@ build:
 update-npm:
 	npm update
 
-update-license:
+update-license: build
 	licensed cache  || true
 	licensed notices
 
