@@ -7,7 +7,7 @@ update-npm:
 	npm update
 
 update-license:
-	licensed cache
+	licensed cache  || true
 	licensed notices
 
 update-all: update-npm update-license
