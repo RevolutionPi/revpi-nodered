@@ -1,3 +1,17 @@
+revpi-nodered (1.5.1-1+deb12+1) bookworm; urgency=medium
+
+  [ Sven Sager ]
+  * build: Ignore exit code of licensed chache
+  * build: Use build as dependency of update-licenses
+  * chore: Autoupdate NOTICE license summary
+  * fix: Set node-red-contrib-revpi-nodes dependency to 1.2.2
+  * fix: Update Node-RED to 4.0.3
+
+  [ Nicolai Buchwitz ]
+  * ci: Add npm audit pipeline
+
+ -- Sven Sager <s.sager@kunbus.com>  Thu, 26 Sep 2024 13:56:00 +0200
+
 revpi-nodered (1.5.0-1+deb12+1) bookworm; urgency=medium
 
   * feat: Update to Node-RED 4.0.2
