@@ -1,0 +1,18 @@
+include:
+  - project: "revolutionpi/infrastructure/ci-templates"
+    file: "base.yml"
+  - project: "revolutionpi/infrastructure/ci-templates"
+    file: "base-rules.yml"
+
+npm-audit:
+  image: "registry.gitlab.com/gitlab-org/security-products/analyzers/npm-audit:1.4.0"
+  stage: test
+  variables:
+    TOOL: npm
+  script:
+    - /analyzer run
+  artifacts:
+    reports:
+      dependency_scanning: gl-dependency-scanning-report.json
+    paths:
+      - gl-dependency-scanning-report.json
