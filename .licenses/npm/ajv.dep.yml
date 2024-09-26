@@ -1,6 +1,6 @@
 ---
 name: ajv
-version: 8.14.0
+version: 8.17.1
 type: npm
 summary: Another JSON Schema Validator
 homepage: https://ajv.js.org
