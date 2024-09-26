@@ -1,0 +1,13 @@
+include:
+  - project: "revolutionpi/infrastructure/ci-templates"
+    file: "base.yml"
+  - project: "revolutionpi/infrastructure/ci-templates"
+    file: "base-rules.yml"
+
+npm-audit:
+  image: "node:18-alpine"
+  stage: test
+  script:
+    - apk add make
+    - make security-audit
+

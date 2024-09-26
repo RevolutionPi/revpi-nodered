@@ -1,6 +1,6 @@
 ---
 name: body-parser
-version: 1.20.2
+version: 1.20.3
 type: npm
 summary: Node.js body parsing middleware
 homepage:
@@ -44,4 +44,6 @@ licenses:
     [npm-downloads-image]: https://badgen.net/npm/dm/body-parser
     [npm-url]: https://npmjs.org/package/body-parser
     [npm-version-image]: https://badgen.net/npm/v/body-parser
+    [ossf-scorecard-badge]: https://api.scorecard.dev/projects/github.com/expressjs/body-parser/badge
+    [ossf-scorecard-visualizer]: https://ossf.github.io/scorecard-visualizer/#/projects/github.com/expressjs/body-parser
 notices: []
