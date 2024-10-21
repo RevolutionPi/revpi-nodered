@@ -22,7 +22,6 @@ Depends:
   ${shlibs:Depends},
 Breaks:
   noderedrevpinodes-server (<< 1.0.5~),
-  noderedrevpinodes-server (>= 1.2.0~),
 Conflicts:
   nodered,
   node-red-contrib-revpi-nodes,
