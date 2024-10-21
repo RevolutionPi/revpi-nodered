@@ -1,6 +1,6 @@
 ---
 name: got
-version: 12.6.0
+version: 12.6.1
 type: npm
 summary: Human-friendly and powerful HTTP request library for Node.js
 homepage:

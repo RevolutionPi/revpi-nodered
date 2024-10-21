@@ -1,16 +1,16 @@
 ---
-name: cookie-parser
-version: 1.4.7
+name: cookie
+version: 0.7.1
 type: npm
-summary: Parse HTTP request cookies
+summary: HTTP server cookie parsing and serialization
 homepage:
 license: mit
 licenses:
 - sources: LICENSE
-  text: |
+  text: |+
     (The MIT License)
 
-    Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
+    Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
     Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
 
     Permission is hereby granted, free of charge, to any person obtaining
@@ -31,15 +31,18 @@ licenses:
     CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
     TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
     SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 - sources: README.md
   text: |-
     [MIT](LICENSE)
 
-    [ci-image]: https://badgen.net/github/checks/expressjs/cookie-parser/master?label=ci
-    [ci-url]: https://github.com/expressjs/cookie-parser/actions?query=workflow%3Aci
-    [coveralls-image]: https://badgen.net/coveralls/c/github/expressjs/cookie-parser/master
-    [coveralls-url]: https://coveralls.io/r/expressjs/cookie-parser?branch=master
-    [npm-downloads-image]: https://badgen.net/npm/dm/cookie-parser
-    [npm-url]: https://npmjs.org/package/cookie-parser
-    [npm-version-image]: https://badgen.net/npm/v/cookie-parser
+    [ci-image]: https://badgen.net/github/checks/jshttp/cookie/master?label=ci
+    [ci-url]: https://github.com/jshttp/cookie/actions/workflows/ci.yml
+    [coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/cookie/master
+    [coveralls-url]: https://coveralls.io/r/jshttp/cookie?branch=master
+    [node-image]: https://badgen.net/npm/node/cookie
+    [node-url]: https://nodejs.org/en/download
+    [npm-downloads-image]: https://badgen.net/npm/dm/cookie
+    [npm-url]: https://npmjs.org/package/cookie
+    [npm-version-image]: https://badgen.net/npm/v/cookie
 notices: []

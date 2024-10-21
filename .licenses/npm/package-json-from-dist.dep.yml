@@ -1,6 +1,6 @@
 ---
 name: package-json-from-dist
-version: 1.0.0
+version: 1.0.1
 type: npm
 summary: Load the local package.json from either src or dist folder
 homepage:
