@@ -3,6 +3,8 @@ include:
     file: "base.yml"
   - project: "revolutionpi/infrastructure/ci-templates"
     file: "base-rules.yml"
+  - project: "revolutionpi/infrastructure/ci-templates"
+    file: "/package-devel.yml"
 
 npm-audit:
   image: "node:18-alpine"
