@@ -1,6 +1,6 @@
 ---
 name: tldts
-version: 6.1.52
+version: 6.1.61
 type: npm
 summary: Library to work against complex domain names, subdomains and URIs.
 homepage: https://github.com/remusao/tldts#readme
