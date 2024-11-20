@@ -1,3 +1,13 @@
+revpi-nodered (1.6.0-1+deb12+1) bookworm; urgency=medium
+
+  * fix(deb): Remove max node-red-contrib-revpi-nodes package dependency
+  * fix: Update Node-RED to 4.0.5
+  * feat(scripts): Update package.json to the latest versions
+  * fix(packages): Update dependencies of package-lock.json
+  * fix(deb): Ignore ci commits in changelog file
+
+ -- Sven Sager <s.sager@kunbus.com>  Wed, 20 Nov 2024 10:35:39 +0100
+
 revpi-nodered (1.5.1-1+deb12+1) bookworm; urgency=medium
 
   [ Sven Sager ]
