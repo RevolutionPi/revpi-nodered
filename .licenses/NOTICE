@@ -1,7 +1,7 @@
 THIRD PARTY NOTICES
 
 *****
-@babel/runtime@7.25.6
+@babel/runtime@7.26.0
 
 MIT License
 
@@ -64,7 +64,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-@node-red/editor-api@4.0.3
+@node-red/editor-api@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -246,7 +246,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/editor-client@4.0.3
+@node-red/editor-client@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -428,7 +428,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/nodes@4.0.3
+@node-red/nodes@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -610,7 +610,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/registry@4.0.3
+@node-red/registry@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -792,7 +792,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/runtime@4.0.3
+@node-red/runtime@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -974,7 +974,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/util@4.0.3
+@node-red/util@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -1500,7 +1500,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/node@22.7.2
+@types/node@22.9.0
 
 MIT License
 
@@ -1525,7 +1525,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/readable-stream@4.0.15
+@types/readable-stream@4.0.18
 
 MIT License
 
@@ -1550,7 +1550,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/ws@8.5.12
+@types/ws@8.5.13
 
 MIT License
 
@@ -3309,48 +3309,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/content-type
 
 *****
-cookie@0.4.1
-
-(The MIT License)
-
-Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
-Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
------
-
-[MIT](LICENSE)
-
-[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/cookie/master
-[coveralls-url]: https://coveralls.io/r/jshttp/cookie?branch=master
-[node-version-image]: https://badgen.net/npm/node/cookie
-[node-version-url]: https://nodejs.org/en/download
-[npm-downloads-image]: https://badgen.net/npm/dm/cookie
-[npm-url]: https://npmjs.org/package/cookie
-[npm-version-image]: https://badgen.net/npm/v/cookie
-[travis-image]: https://badgen.net/travis/jshttp/cookie/master
-[travis-url]: https://travis-ci.org/jshttp/cookie
-
-*****
-cookie@0.6.0
+cookie@0.7.1
 
 (The MIT License)
 
@@ -3391,7 +3350,48 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/cookie
 
 *****
-cookie-parser@1.4.6
+cookie@0.7.2
+
+(The MIT License)
+
+Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+[MIT](LICENSE)
+
+[ci-image]: https://badgen.net/github/checks/jshttp/cookie/master?label=ci
+[ci-url]: https://github.com/jshttp/cookie/actions/workflows/ci.yml
+[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/cookie/master
+[coveralls-url]: https://coveralls.io/r/jshttp/cookie?branch=master
+[node-image]: https://badgen.net/npm/node/cookie
+[node-url]: https://nodejs.org/en/download
+[npm-downloads-image]: https://badgen.net/npm/dm/cookie
+[npm-url]: https://npmjs.org/package/cookie
+[npm-version-image]: https://badgen.net/npm/v/cookie
+
+*****
+cookie-parser@1.4.7
 
 (The MIT License)
 
@@ -3554,7 +3554,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-cross-spawn@7.0.3
+cross-spawn@7.0.5
 
 The MIT License (MIT)
 
@@ -4556,7 +4556,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 [node.js docs]: https://nodejs.org/dist/v11.13.0/docs/api/events.html
 
 *****
-express@4.21.0
+express@4.21.1
 
 (The MIT License)
 
@@ -4604,7 +4604,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [Code of Conduct]: https://github.com/expressjs/express/blob/master/Code-Of-Conduct.md
 
 *****
-express-session@1.18.0
+express-session@1.18.1
 
 (The MIT License)
 
@@ -4702,7 +4702,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-fast-uri@3.0.1
+fast-uri@3.0.3
 
 Copyright (c) 2021 The Fastify Team
 Copyright (c) 2011-2021, Gary Court until https://github.com/garycourt/uri-js/commit/a1acf730b4bba3f1097c9f52e7d9d3aba8cdcaae
@@ -5092,7 +5092,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-got@12.6.0
+got@12.6.1
 
 MIT License
 
@@ -5994,25 +5994,6 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-lru-cache@6.0.0
-
-The ISC License
-
-Copyright (c) Isaac Z. Schlueter and Contributors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-*****
 media-typer@0.3.0
 
 (The MIT License)
@@ -6569,7 +6550,7 @@ Moment.js is freely distributable under the terms of the [MIT license][license-u
 [semver-url]: https://dependabot.com/compatibility-score.html?dependency-name=moment&package-manager=npm_and_yarn&version-scheme=semver
 
 *****
-moment-timezone@0.5.45
+moment-timezone@0.5.46
 
 The MIT License (MIT)
 
@@ -6641,7 +6622,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 MIT
 
 *****
-mqtt-packet@9.0.0
+mqtt-packet@9.0.1
 
 The MIT License (MIT)
 =====================
@@ -6814,7 +6795,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [github-actions-ci-url]: https://github.com/jshttp/negotiator/actions/workflows/ci.yml
 
 *****
-node-red@4.0.3
+node-red@4.0.5
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -7508,7 +7489,7 @@ THE SOFTWARE.
 MIT © [Sindre Sorhus](https://sindresorhus.com)
 
 *****
-object-inspect@1.13.2
+object-inspect@1.13.3
 
 MIT License
 
@@ -7647,7 +7628,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-package-json-from-dist@1.0.0
+package-json-from-dist@1.0.1
 
 All packages under `src/` are licensed according to the terms in
 their respective `LICENSE` or `LICENSE.md` files.
@@ -8348,6 +8329,47 @@ THE SOFTWARE.
 [github-actions-ci-url]: https://github.com/jshttp/stream-utils/raw-body?query=workflow%3Aci
 
 *****
+raw-body@3.0.0
+
+The MIT License (MIT)
+
+Copyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+[MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/raw-body.svg
+[npm-url]: https://npmjs.org/package/raw-body
+[node-version-image]: https://img.shields.io/node/v/raw-body.svg
+[node-version-url]: https://nodejs.org/en/download/
+[coveralls-image]: https://img.shields.io/coveralls/stream-utils/raw-body/master.svg
+[coveralls-url]: https://coveralls.io/r/stream-utils/raw-body?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/raw-body.svg
+[downloads-url]: https://npmjs.org/package/raw-body
+[github-actions-ci-image]: https://img.shields.io/github/actions/workflow/status/stream-utils/raw-body/ci.yml?branch=master&label=ci
+[github-actions-ci-url]: https://github.com/jshttp/stream-utils/raw-body?query=workflow%3Aci
+
+*****
 read@3.0.1
 
 The ISC License
@@ -8816,7 +8838,7 @@ Copyright (c) 2010-2024 Mathias Bynens <https://mathiasbynens.be/>
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-semver@7.5.4
+semver@7.6.3
 
 The ISC License
 
@@ -9316,7 +9338,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-tar@7.2.0
+tar@7.4.3
 
 The ISC License
 
@@ -9335,7 +9357,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-tldts@6.1.47
+tldts@6.1.61
 
 Copyright (c) 2017 Thomas Parisot, 2018 Rémi Berson
 
@@ -9363,7 +9385,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTH
 [public suffix]: https://publicsuffix.org/learn/
 
 *****
-tldts-core@6.1.47
+tldts-core@6.1.61
 
 Copyright (c) 2017 Thomas Parisot, 2018 Rémi Berson
 
@@ -9434,7 +9456,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 *****
-tslib@2.7.0
+tslib@2.8.1
 
 Copyright (c) Microsoft Corporation.
 
@@ -10193,25 +10215,6 @@ THE SOFTWARE.
 
 *****
 yallist@2.1.2
-
-The ISC License
-
-Copyright (c) Isaac Z. Schlueter and Contributors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-*****
-yallist@4.0.0
 
 The ISC License
 

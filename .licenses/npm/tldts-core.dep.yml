@@ -1,6 +1,6 @@
 ---
 name: tldts-core
-version: 6.1.47
+version: 6.1.61
 type: npm
 summary: tldts core primitives (internal module)
 homepage: https://github.com/remusao/tldts#readme

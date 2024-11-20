@@ -1,6 +1,6 @@
 ---
 name: express
-version: 4.21.0
+version: 4.21.1
 type: npm
 summary: Fast, unopinionated, minimalist web framework
 homepage: http://expressjs.com/
