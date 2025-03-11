@@ -1,8 +1,8 @@
 ---
 name: fast-uri
-version: 3.0.3
+version: 3.0.6
 type: npm
-summary: Dependency free RFC 3986 URI toolbox
+summary: Dependency-free RFC 3986 URI toolbox
 homepage: https://github.com/fastify/fast-uri
 license: other
 licenses:
@@ -38,4 +38,6 @@ licenses:
 
     The complete list of contributors can be found at:
     - https://github.com/garycourt/uri-js/graphs/contributors
+- sources: README.md
+  text: Licensed under [BSD-3-Clause](./LICENSE).
 notices: []

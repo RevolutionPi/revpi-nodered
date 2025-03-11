@@ -1,6 +1,6 @@
 ---
 name: "@types/ws"
-version: 8.5.13
+version: 8.18.0
 type: npm
 summary: TypeScript definitions for ws
 homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ws

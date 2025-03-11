@@ -1,6 +1,6 @@
 ---
 name: mqtt-packet
-version: 9.0.1
+version: 9.0.2
 type: npm
 summary: Parse and generate MQTT packets like a breeze
 homepage: https://github.com/mqttjs/mqtt-packet
