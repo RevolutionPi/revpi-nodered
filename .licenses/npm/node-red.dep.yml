@@ -1,6 +1,6 @@
 ---
 name: node-red
-version: 4.0.5
+version: 4.0.9
 type: npm
 summary: Low-code programming for event-driven applications
 homepage: https://nodered.org

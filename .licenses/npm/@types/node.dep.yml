@@ -1,6 +1,6 @@
 ---
 name: "@types/node"
-version: 22.9.0
+version: 22.13.10
 type: npm
 summary: TypeScript definitions for node
 homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
