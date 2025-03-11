@@ -1,3 +1,10 @@
+revpi-nodered (1.6.1-1+deb12+1) bookworm; urgency=medium
+
+  * fix: Update Node-RED to 4.0.9
+  * feat(deb): Add override to disable auto-enabling of systemd services
+
+ -- Sven Sager <s.sager@kunbus.com>  Tue, 11 Mar 2025 14:13:22 +0100
+
 revpi-nodered (1.6.0-1+deb12+1) bookworm; urgency=medium
 
   * fix(deb): Remove max node-red-contrib-revpi-nodes package dependency
