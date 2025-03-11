@@ -7,6 +7,10 @@ include:
     file: "/package-devel.yml"
   - project: "revolutionpi/infrastructure/ci-templates"
     file: "/check-commit/lint-commit.yml"
+  - local: debian/gitlab-ci.yml
+    rules:
+      - exists:
+          - debian/gitlab-ci.yml
 
 npm-audit:
   image: "node:18-alpine"
