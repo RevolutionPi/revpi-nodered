@@ -2,3 +2,6 @@
 
 %:
 	dh $@ --with sysuser
+
+override_dh_installsystemd:
+	dh_installsystemd --no-enable
