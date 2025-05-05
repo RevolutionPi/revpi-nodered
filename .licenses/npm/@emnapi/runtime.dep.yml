@@ -1,16 +1,16 @@
 ---
-name: undici-types
-version: 6.21.0
+name: "@emnapi/runtime"
+version: 1.4.3
 type: npm
-summary: A stand-alone types package for Undici
-homepage: https://undici.nodejs.org
+summary: emnapi runtime
+homepage: https://github.com/toyobayashi/emnapi#readme
 license: mit
 licenses:
 - sources: LICENSE
   text: |
     MIT License
 
-    Copyright (c) Matteo Collina and Undici contributors
+    Copyright (c) 2021-present Toyobayashi
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

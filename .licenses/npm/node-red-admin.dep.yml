@@ -1,6 +1,6 @@
 ---
 name: node-red-admin
-version: 4.0.1
+version: 4.0.2
 type: npm
 summary: The Node-RED admin command line interface
 homepage: https://nodered.org

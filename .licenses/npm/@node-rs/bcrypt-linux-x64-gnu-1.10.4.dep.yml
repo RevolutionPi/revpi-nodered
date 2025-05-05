@@ -1,16 +1,14 @@
 ---
-name: undici-types
-version: 6.21.0
+name: "@node-rs/bcrypt-linux-x64-gnu"
+version: 1.10.4
 type: npm
-summary: A stand-alone types package for Undici
-homepage: https://undici.nodejs.org
+summary: Rust bcrypt binding
+homepage: https://github.com/napi-rs/node-rs
 license: mit
 licenses:
-- sources: LICENSE
+- sources: Auto-generated MIT license text
   text: |
     MIT License
-
-    Copyright (c) Matteo Collina and Undici contributors
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
