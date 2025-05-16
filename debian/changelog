@@ -1,3 +1,11 @@
+revpi-nodered (1.7.0-1+deb12+1) bookworm; urgency=medium
+
+  [ Marc Kittner ]
+  * feat: Disallow HTTPS for nodered settings.js
+  * chore(dep): Update package-lock.json and licenses
+
+ -- Sven Sager <s.sager@kunbus.com>  Fri, 16 May 2025 14:54:06 +0200
+
 revpi-nodered (1.6.1-1+deb12+1) bookworm; urgency=medium
 
   * fix: Update Node-RED to 4.0.9
