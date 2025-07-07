@@ -50,7 +50,20 @@ Breaks:
   revpi-nodered-proxy-nginx,
 Replaces:
   revpi-nodered-proxy-nginx,
+Suggests:
+  revpi-nodered-proxy-firewalld
 Description: Revolution Pi Node-RED Reverse Proxy configuration for Apache
  Apache2 configuration to enable a secure reverse proxy for insecure Node-RED
  traffic. Revolution Pi is a set of IoT products based on the Raspberry Pi and
  geared towards industrial usage.
+
+Package: revpi-nodered-proxy-firewalld
+Architecture: all
+Depends:
+  firewalld,
+  revpi-nodered-proxy-apache | revpi-nodered-proxy-nginx,
+  ${misc:Depends},
+Description: Revolution Pi Node-RED Reverse Proxy firewall definitions
+ This package brings the firewalld service files for the secure
+ reverse proxy for Node-RED on the Revolution Pi. This configuration
+ is required for a safe operation, when firewalld is used.
