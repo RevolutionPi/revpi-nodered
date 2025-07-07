@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>RevPi NodeRed</short>
+  <description>RevPi NodeRed lets you easily program your RevPi with a flow-based UI.</description>
+  <port protocol="tcp" port="41880"/>
+</service>
