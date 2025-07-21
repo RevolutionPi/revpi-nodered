@@ -1,3 +1,11 @@
+revpi-nodered (1.8.0-1+deb12+1) bookworm; urgency=medium
+
+  [ Nicolai Buchwitz ]
+  * feat: Add firewalld zone file
+  * feat(deb): Add package revpi-nodered-proxy-firewalld
+
+ -- Sven Sager <s.sager@kunbus.com>  Mon, 21 Jul 2025 08:56:43 +0200
+
 revpi-nodered (1.7.0-1+deb12+1) bookworm; urgency=medium
 
   [ Marc Kittner ]
