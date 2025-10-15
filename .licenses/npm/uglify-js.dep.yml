@@ -1,6 +1,6 @@
 ---
 name: uglify-js
-version: 3.17.4
+version: 3.19.3
 type: npm
 summary: JavaScript parser, mangler/compressor and beautifier toolkit
 homepage:
@@ -10,7 +10,7 @@ licenses:
   text: |
     UglifyJS is released under the BSD license:
 
-    Copyright 2012-2019 (c) Mihai Bazon <mihai.bazon@gmail.com>
+    Copyright 2012-2024 (c) Mihai Bazon <mihai.bazon@gmail.com>
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions

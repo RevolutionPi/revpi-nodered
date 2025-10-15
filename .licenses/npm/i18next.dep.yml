@@ -1,6 +1,6 @@
 ---
 name: i18next
-version: 21.10.0
+version: 24.2.3
 type: npm
 summary: i18next internationalization framework
 homepage: https://www.i18next.com
@@ -10,7 +10,7 @@ licenses:
   text: |
     The MIT License (MIT)
 
-    Copyright (c) 2022 i18next
+    Copyright (c) 2025 i18next
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,9 @@
+---
+name: "@node-rs/bcrypt-linux-arm64-musl"
+version: 1.10.7
+type: npm
+summary:
+homepage:
+license: none
+licenses: []
+notices: []

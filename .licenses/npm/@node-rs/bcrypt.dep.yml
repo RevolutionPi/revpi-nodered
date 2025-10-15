@@ -1,6 +1,6 @@
 ---
 name: "@node-rs/bcrypt"
-version: 1.10.4
+version: 1.10.7
 type: npm
 summary: Rust bcrypt binding
 homepage: https://github.com/napi-rs/node-rs

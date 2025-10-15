@@ -1,6 +1,6 @@
 ---
 name: express-session
-version: 1.18.1
+version: 1.18.2
 type: npm
 summary: Simple session middleware for Express
 homepage:
