@@ -16,7 +16,8 @@ ProtectControlGroups=yes
 ProtectKernelModules=yes
 ProtectKernelTunables=yes
 
-# Allow writing to the home directory after ProtectSystem=strict sets the file system to read only.
+# Allow writing to the following directories after ProtectSystem=strict sets the file system to read only.
+ReadWritePaths=/tmp
 ReadWritePaths=/var/lib/revpi-nodered
 
 # Restrict file system access to the following directories
