@@ -1,6 +1,6 @@
 ---
 name: acorn
-version: 8.12.1
+version: 8.15.0
 type: npm
 summary: ECMAScript parser
 homepage: https://github.com/acornjs/acorn
