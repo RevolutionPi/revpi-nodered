@@ -1,3 +1,10 @@
+revpi-nodered (1.9.0-1+deb12+1) bookworm; urgency=medium
+
+  * fix: Update Node-RED to 4.1.1
+  * feat(systemd): Add /tmp to writable paths
+
+ -- Sven Sager <s.sager@kunbus.com>  Thu, 16 Oct 2025 14:08:36 +0200
+
 revpi-nodered (1.8.0-1+deb12+1) bookworm; urgency=medium
 
   [ Nicolai Buchwitz ]
