@@ -1,14 +1,18 @@
 ---
-name: ip-address
-version: 10.1.0
+name: http-errors
+version: 2.0.1
 type: npm
-summary: A library for parsing IPv4 and IPv6 IP addresses in node and the browser.
+summary: Create HTTP error objects
 homepage:
 license: mit
 licenses:
 - sources: LICENSE
-  text: |
-    Copyright (C) 2011 by Beau Gunderson
+  text: |2
+
+    The MIT License (MIT)
+
+    Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+    Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -27,4 +31,19 @@ licenses:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
+- sources: README.md
+  text: |-
+    [MIT](LICENSE)
+
+    [ci-image]: https://badgen.net/github/checks/jshttp/http-errors/master?label=ci
+    [ci-url]: https://github.com/jshttp/http-errors/actions?query=workflow%3Aci
+    [coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/http-errors/master
+    [coveralls-url]: https://coveralls.io/r/jshttp/http-errors?branch=master
+    [node-image]: https://badgen.net/npm/node/http-errors
+    [node-url]: https://nodejs.org/en/download
+    [npm-downloads-image]: https://badgen.net/npm/dm/http-errors
+    [npm-url]: https://npmjs.org/package/http-errors
+    [npm-version-image]: https://badgen.net/npm/v/http-errors
+    [travis-image]: https://badgen.net/travis/jshttp/http-errors/master
+    [travis-url]: https://travis-ci.org/jshttp/http-errors
 notices: []

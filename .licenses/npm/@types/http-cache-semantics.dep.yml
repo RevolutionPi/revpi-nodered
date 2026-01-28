@@ -1,6 +1,6 @@
 ---
 name: "@types/http-cache-semantics"
-version: 4.0.4
+version: 4.2.0
 type: npm
 summary: TypeScript definitions for http-cache-semantics
 homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/http-cache-semantics
