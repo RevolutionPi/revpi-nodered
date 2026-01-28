@@ -1,7 +1,7 @@
 THIRD PARTY NOTICES
 
 *****
-@babel/runtime@7.28.4
+@babel/runtime@7.28.6
 
 MIT License
 
@@ -27,21 +27,6 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-@emnapi/core@1.5.0
-
-
-
-*****
-@emnapi/runtime@1.5.0
-
-
-
-*****
-@emnapi/wasi-threads@1.1.0
-
-
-
-*****
 @isaacs/fs-minipass@4.0.1
 
 The ISC License
@@ -61,12 +46,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-@napi-rs/wasm-runtime@0.2.12
-
-
-
-*****
-@node-red/editor-api@4.1.1
+@node-red/editor-api@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -248,7 +228,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/editor-client@4.1.1
+@node-red/editor-client@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -430,7 +410,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/nodes@4.1.1
+@node-red/nodes@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -612,7 +592,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/registry@4.1.1
+@node-red/registry@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -794,7 +774,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/runtime@4.1.1
+@node-red/runtime@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -976,7 +956,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/util@4.1.1
+@node-red/util@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -1337,12 +1317,7 @@ SOFTWARE.
 MIT
 
 *****
-@tybys/wasm-util@0.10.1
-
-
-
-*****
-@types/http-cache-semantics@4.0.4
+@types/http-cache-semantics@4.2.0
 
 MIT License
 
@@ -1367,7 +1342,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/node@24.7.2
+@types/node@25.0.10
 
 MIT License
 
@@ -1392,7 +1367,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/readable-stream@4.0.21
+@types/readable-stream@4.0.23
 
 MIT License
 
@@ -2230,7 +2205,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 *****
-bl@6.1.4
+bl@6.1.6
 
 The MIT License (MIT)
 =====================
@@ -2247,7 +2222,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-body-parser@1.20.3
+body-parser@1.20.4
 
 (The MIT License)
 
@@ -3035,47 +3010,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/content-type
 
 *****
-cookie@0.7.1
-
-(The MIT License)
-
-Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
-Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
------
-
-[MIT](LICENSE)
-
-[ci-image]: https://badgen.net/github/checks/jshttp/cookie/master?label=ci
-[ci-url]: https://github.com/jshttp/cookie/actions/workflows/ci.yml
-[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/cookie/master
-[coveralls-url]: https://coveralls.io/r/jshttp/cookie?branch=master
-[node-image]: https://badgen.net/npm/node/cookie
-[node-url]: https://nodejs.org/en/download
-[npm-downloads-image]: https://badgen.net/npm/dm/cookie
-[npm-url]: https://npmjs.org/package/cookie
-[npm-version-image]: https://badgen.net/npm/v/cookie
-
-*****
 cookie@0.7.2
 
 (The MIT License)
@@ -3850,47 +3784,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 *****
-encodeurl@1.0.2
-
-(The MIT License)
-
-Copyright (c) 2016 Douglas Christopher Wilson
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
------
-
-[MIT](LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/encodeurl.svg
-[npm-url]: https://npmjs.org/package/encodeurl
-[node-version-image]: https://img.shields.io/node/v/encodeurl.svg
-[node-version-url]: https://nodejs.org/en/download
-[travis-image]: https://img.shields.io/travis/pillarjs/encodeurl.svg
-[travis-url]: https://travis-ci.org/pillarjs/encodeurl
-[coveralls-image]: https://img.shields.io/coveralls/pillarjs/encodeurl.svg
-[coveralls-url]: https://coveralls.io/r/pillarjs/encodeurl?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/encodeurl.svg
-[downloads-url]: https://npmjs.org/package/encodeurl
-
-*****
 encodeurl@2.0.0
 
 (The MIT License)
@@ -4201,7 +4094,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 [node.js docs]: https://nodejs.org/dist/v11.13.0/docs/api/events.html
 
 *****
-express@4.21.2
+express@4.22.1
 
 (The MIT License)
 
@@ -4387,7 +4280,7 @@ The complete list of contributors can be found at:
 Licensed under [BSD-3-Clause](./LICENSE).
 
 *****
-finalhandler@1.3.1
+finalhandler@1.3.2
 
 (The MIT License)
 
@@ -5017,6 +4910,48 @@ THE SOFTWARE.
 [travis-url]: https://travis-ci.org/jshttp/http-errors
 
 *****
+http-errors@2.0.1
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+[MIT](LICENSE)
+
+[ci-image]: https://badgen.net/github/checks/jshttp/http-errors/master?label=ci
+[ci-url]: https://github.com/jshttp/http-errors/actions?query=workflow%3Aci
+[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/http-errors/master
+[coveralls-url]: https://coveralls.io/r/jshttp/http-errors?branch=master
+[node-image]: https://badgen.net/npm/node/http-errors
+[node-url]: https://nodejs.org/en/download
+[npm-downloads-image]: https://badgen.net/npm/dm/http-errors
+[npm-url]: https://npmjs.org/package/http-errors
+[npm-version-image]: https://badgen.net/npm/v/http-errors
+[travis-image]: https://badgen.net/travis/jshttp/http-errors/master
+[travis-url]: https://travis-ci.org/jshttp/http-errors
+
+*****
 http2-wrapper@2.2.1
 
 MIT License
@@ -5185,7 +5120,7 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 
 *****
-ip-address@10.0.1
+ip-address@10.1.0
 
 Copyright (C) 2011 by Beau Gunderson
 
@@ -5269,7 +5204,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-js-yaml@4.1.0
+js-yaml@4.1.1
 
 (The MIT License)
 
@@ -6004,35 +5939,6 @@ THE SOFTWARE.
 MIT
 
 *****
-mkdirp@3.0.1
-
-Copyright (c) 2011-2023 James Halliday (mail@substack.net) and Isaac Z. Schlueter (i@izs.me)
-
-This project is free software released under the MIT license:
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
------
-
-MIT
-
-*****
 moment@2.30.1
 
 Copyright (c) JS Foundation and other contributors
@@ -6344,7 +6250,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [github-actions-ci-url]: https://github.com/jshttp/negotiator/actions/workflows/ci.yml
 
 *****
-node-red@4.1.1
+node-red@4.1.4
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -6926,7 +6832,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-normalize-url@8.1.0
+normalize-url@8.1.1
 
 MIT License
 
@@ -7571,7 +7477,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-qs@6.13.0
+qs@6.14.1
 
 BSD 3-Clause License
 
@@ -7698,7 +7604,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [travis-url]: https://travis-ci.org/jshttp/range-parser
 
 *****
-raw-body@2.5.2
+raw-body@2.5.3
 
 The MIT License (MIT)
 
@@ -8108,49 +8014,63 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-sax@1.4.1
+sax@1.4.4
 
-The ISC License
+# Blue Oak Model License
 
-Copyright (c) 2010-2024 Isaac Z. Schlueter and Contributors
+Version 1.0.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+## Purpose
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+This license gives everyone as much permission to work with
+this software as possible, while protecting contributors
+from liability.
 
-====
+## Acceptance
 
-`String.fromCodePoint` by Mathias Bynens used according to terms of MIT
-License, as follows:
+In order to receive this license, you must agree to its
+rules.  The rules of this license are both obligations
+under that agreement and conditions to your license.
+You must not do anything with this software that triggers
+a rule that you cannot or will not follow.
 
-Copyright (c) 2010-2024 Mathias Bynens <https://mathiasbynens.be/>
+## Copyright
 
-    Permission is hereby granted, free of charge, to any person obtaining
-    a copy of this software and associated documentation files (the
-    "Software"), to deal in the Software without restriction, including
-    without limitation the rights to use, copy, modify, merge, publish,
-    distribute, sublicense, and/or sell copies of the Software, and to
-    permit persons to whom the Software is furnished to do so, subject to
-    the following conditions:
+Each contributor licenses you to do everything with this
+software that would otherwise infringe that contributor's
+copyright in it.
 
-    The above copyright notice and this permission notice shall be
-    included in all copies or substantial portions of the Software.
+## Notices
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+You must ensure that everyone who gets a copy of
+any part of this software from you, with or without
+changes, also gets the text of this license or a link to
+<https://blueoakcouncil.org/license/1.0.0>.
+
+## Excuse
+
+If anyone notifies you in writing that you have not
+complied with [Notices](#notices), you can keep your
+license by taking all practical steps to comply within 30
+days after the notice.  If you do not do so, your license
+ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe any patent claims
+they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+***As far as the law allows, this software comes as is,
+without any warranty or condition, and no contributor
+will be liable to anyone for any damages related to this
+software or this license, under any kind of legal claim.***
 
 *****
 semver@7.7.1
@@ -8172,7 +8092,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-send@0.19.0
+send@0.19.2
 
 (The MIT License)
 
@@ -8215,7 +8135,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/send
 
 *****
-serve-static@1.16.2
+serve-static@1.16.3
 
 (The MIT License)
 
@@ -8506,6 +8426,48 @@ THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/statuses
 
 *****
+statuses@2.0.2
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+[MIT](LICENSE)
+
+[ci-image]: https://badgen.net/github/checks/jshttp/statuses/master?label=ci
+[ci-url]: https://github.com/jshttp/statuses/actions?query=workflow%3Aci
+[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/statuses/master
+[coveralls-url]: https://coveralls.io/r/jshttp/statuses?branch=master
+[node-version-image]: https://badgen.net/npm/node/statuses
+[node-version-url]: https://nodejs.org/en/download
+[npm-downloads-image]: https://badgen.net/npm/dm/statuses
+[npm-url]: https://npmjs.org/package/statuses
+[npm-version-image]: https://badgen.net/npm/v/statuses
+[ossf-scorecard-badge]: https://api.securityscorecards.dev/projects/github.com/jshttp/statuses/badge
+[ossf-scorecard-visualizer]: https://kooltheba.github.io/openssf-scorecard-api-visualizer/#/projects/github.com/jshttp/statuses
+
+*****
 streamsearch@1.1.0
 
 Copyright Brian White. All rights reserved.
@@ -8606,23 +8568,63 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-tar@7.4.3
+tar@7.5.6
 
-The ISC License
+# Blue Oak Model License
 
-Copyright (c) Isaac Z. Schlueter and Contributors
+Version 1.0.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+## Purpose
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+This license gives everyone as much permission to work with
+this software as possible, while protecting contributors
+from liability.
+
+## Acceptance
+
+In order to receive this license, you must agree to its
+rules.  The rules of this license are both obligations
+under that agreement and conditions to your license.
+You must not do anything with this software that triggers
+a rule that you cannot or will not follow.
+
+## Copyright
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe that contributor's
+copyright in it.
+
+## Notices
+
+You must ensure that everyone who gets a copy of
+any part of this software from you, with or without
+changes, also gets the text of this license or a link to
+<https://blueoakcouncil.org/license/1.0.0>.
+
+## Excuse
+
+If anyone notifies you in writing that you have not
+complied with [Notices](#notices), you can keep your
+license by taking all practical steps to comply within 30
+days after the notice.  If you do not do so, your license
+ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe any patent claims
+they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+***As far as the law allows, this software comes as is,
+without any warranty or condition, and no contributor
+will be liable to anyone for any damages related to this
+software or this license, under any kind of legal claim.***
 
 *****
 tldts@6.1.86
@@ -8927,7 +8929,7 @@ THE SOFTWARE.
 MIT
 
 *****
-undici-types@7.14.0
+undici-types@7.16.0
 
 MIT License
 
@@ -9322,7 +9324,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [ws-server-options]: ./doc/ws.md#new-websocketserveroptions-callback
 
 *****
-ws@8.18.3
+ws@8.19.0
 
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
 Copyright (c) 2013 Arnout Kazemier and contributors

@@ -1,6 +1,6 @@
 ---
 name: send
-version: 0.19.0
+version: 0.19.2
 type: npm
 summary: Better streaming static file server with Range and conditional-GET support
 homepage:

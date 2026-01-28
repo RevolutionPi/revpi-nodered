@@ -1,6 +1,6 @@
 ---
 name: serve-static
-version: 1.16.2
+version: 1.16.3
 type: npm
 summary: Serve static files
 homepage:
