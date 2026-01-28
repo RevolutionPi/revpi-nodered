@@ -1,3 +1,9 @@
+revpi-nodered (1.9.2-1+deb13+1) trixie; urgency=medium
+
+  * fix: Update Node-RED to 4.1.4
+
+ -- Sven Sager <s.sager@kunbus.com>  Wed, 28 Jan 2026 14:46:09 +0100
+
 revpi-nodered (1.9.1-1+deb13+1) trixie; urgency=medium
 
   * Initial release for trixie
