@@ -1,7 +1,7 @@
 THIRD PARTY NOTICES
 
 *****
-@babel/runtime@7.28.6
+@babel/runtime@7.29.2
 
 MIT License
 
@@ -46,7 +46,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-@node-red/editor-api@4.1.4
+@node-red/editor-api@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -228,7 +228,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/editor-client@4.1.4
+@node-red/editor-client@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -410,7 +410,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/nodes@4.1.4
+@node-red/nodes@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -592,7 +592,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/registry@4.1.4
+@node-red/registry@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -774,7 +774,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/runtime@4.1.4
+@node-red/runtime@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -956,7 +956,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-@node-red/util@4.1.4
+@node-red/util@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -1342,7 +1342,7 @@ MIT License
     SOFTWARE
 
 *****
-@types/node@25.0.10
+@types/node@25.6.0
 
 MIT License
 
@@ -1533,7 +1533,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/accepts
 
 *****
-acorn@8.15.0
+acorn@8.16.0
 
 MIT License
 
@@ -1558,7 +1558,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 *****
-acorn-walk@8.3.4
+acorn-walk@8.3.5
 
 MIT License
 
@@ -1615,7 +1615,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [http.Agent]: https://nodejs.org/api/http.html#http_class_http_agent
 
 *****
-ajv@8.17.1
+ajv@8.18.0
 
 The MIT License (MIT)
 
@@ -2087,7 +2087,7 @@ SOFTWARE.
 AsyncKit is licensed under the MIT license.
 
 *****
-axios@1.12.2
+axios@1.15.0
 
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
 
@@ -2099,7 +2099,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 -----
 
-[MIT](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 *****
 base64-js@1.5.1
@@ -2174,7 +2174,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [travis-url]: https://travis-ci.org/jshttp/basic-auth
 
 *****
-bcryptjs@3.0.2
+bcryptjs@3.0.3
 
 bcrypt.js
 ---------
@@ -2279,6 +2279,31 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
+
+*****
+broker-factory@3.1.14
+
+MIT License
+
+Copyright (c) 2026 Christoph Guttandin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 *****
 buffer@6.0.3
@@ -4215,11 +4240,11 @@ SOFTWARE.
 [MIT](https://github.com/epoberezkin/fast-deep-equal/blob/master/LICENSE)
 
 *****
-fast-unique-numbers@8.0.13
+fast-unique-numbers@9.0.27
 
 MIT License
 
-Copyright (c) 2023 Christoph Guttandin
+Copyright (c) 2026 Christoph Guttandin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -4321,7 +4346,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [github-actions-ci-url]: https://github.com/pillarjs/finalhandler/actions/workflows/ci.yml
 
 *****
-follow-redirects@1.15.11
+follow-redirects@1.16.0
 
 Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 
@@ -4348,6 +4373,33 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
 form-data@4.0.4
+
+Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+-----
+
+Form-Data is released under the [MIT](License) license.
+
+*****
+form-data@4.0.5
 
 Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
 
@@ -5009,7 +5061,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [CONNECT]: http://en.wikipedia.org/wiki/HTTP_tunnel#HTTP_CONNECT_Tunneling
 
 *****
-i18next@24.2.3
+i18next@25.8.14
 
 The MIT License (MIT)
 
@@ -5861,23 +5913,63 @@ MIT
 [actions-url]: https://github.com/minimistjs/minimist/actions
 
 *****
-minipass@7.1.2
+minipass@7.1.3
 
-The ISC License
+# Blue Oak Model License
 
-Copyright (c) 2017-2023 npm, Inc., Isaac Z. Schlueter, and Contributors
+Version 1.0.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+## Purpose
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+This license gives everyone as much permission to work with
+this software as possible, while protecting contributors
+from liability.
+
+## Acceptance
+
+In order to receive this license, you must agree to its
+rules.  The rules of this license are both obligations
+under that agreement and conditions to your license.
+You must not do anything with this software that triggers
+a rule that you cannot or will not follow.
+
+## Copyright
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe that contributor's
+copyright in it.
+
+## Notices
+
+You must ensure that everyone who gets a copy of
+any part of this software from you, with or without
+changes, also gets the text of this license or a link to
+<https://blueoakcouncil.org/license/1.0.0>.
+
+## Excuse
+
+If anyone notifies you in writing that you have not
+complied with [Notices](#notices), you can keep your
+license by taking all practical steps to comply within 30
+days after the notice.  If you do not do so, your license
+ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe any patent claims
+they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+***As far as the law allows, this software comes as is,
+without any warranty or condition, and no contributor
+will be liable to anyone for any damages related to this
+software or this license, under any kind of legal claim.***
 
 *****
 minizlib@3.1.0
@@ -5908,35 +6000,6 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
-
-*****
-mkdirp@0.5.6
-
-Copyright 2010 James Halliday (mail@substack.net)
-
-This project is free software released under the MIT/X11 license:
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
------
-
-MIT
 
 *****
 moment@2.30.1
@@ -6044,7 +6107,7 @@ Moment-timezone is freely distributable under the terms of the [MIT license][lic
 [fossa-large-url]: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment-timezone?ref=badge_large
 
 *****
-mqtt@5.11.0
+mqtt@5.15.0
 
 The MIT License (MIT)
 =====================
@@ -6138,7 +6201,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-multer@2.0.2
+multer@2.1.1
 
 Copyright (c) 2014 Hage Yaapa <[http://www.hacksparrow.com](http://www.hacksparrow.com)>
 
@@ -6250,7 +6313,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [github-actions-ci-url]: https://github.com/jshttp/negotiator/actions/workflows/ci.yml
 
 *****
-node-red@4.1.4
+node-red@4.1.8
 
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
@@ -6432,7 +6495,7 @@ Copyright OpenJS Foundation and other contributors, https://openjsf.org/
    END OF TERMS AND CONDITIONS
 
 *****
-node-red-admin@4.1.2
+node-red-admin@4.1.5
 
 Apache License
                            Version 2.0, January 2004
@@ -7290,7 +7353,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
 
 *****
-path-to-regexp@0.1.12
+path-to-regexp@0.1.13
 
 The MIT License (MIT)
 
@@ -7434,7 +7497,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-version-image]: https://badgen.net/npm/v/proxy-addr
 
 *****
-proxy-from-env@1.1.0
+proxy-from-env@2.1.0
 
 The MIT License
 
@@ -7477,7 +7540,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 *****
-qs@6.14.1
+qs@6.14.2
 
 BSD 3-Clause License
 
@@ -7807,35 +7870,6 @@ IN THE SOFTWARE.
 """
 
 *****
-reinterval@1.1.0
-
-The MIT License (MIT)
-
-Copyright (c) 2015 Agor Maxime
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
------
-
-**MIT**
-
-*****
 require-from-string@2.0.2
 
 The MIT License (MIT)
@@ -8014,7 +8048,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-sax@1.4.4
+sax@1.6.0
 
 # Blue Oak Model License
 
@@ -8073,7 +8107,7 @@ will be liable to anyone for any damages related to this
 software or this license, under any kind of legal claim.***
 
 *****
-semver@7.7.1
+semver@7.7.4
 
 The ISC License
 
@@ -8222,7 +8256,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-side-channel-list@1.0.0
+side-channel-list@1.0.1
 
 MIT License
 
@@ -8568,7 +8602,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 *****
-tar@7.5.6
+tar@7.5.12
 
 # Blue Oak Model License
 
@@ -8929,7 +8963,7 @@ THE SOFTWARE.
 MIT
 
 *****
-undici-types@7.16.0
+undici-types@7.19.2
 
 MIT License
 
@@ -9164,11 +9198,11 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [downloads-url]: https://npmjs.org/package/vary
 
 *****
-worker-timers@7.1.8
+worker-factory@7.0.49
 
 MIT License
 
-Copyright (c) 2024 Christoph Guttandin
+Copyright (c) 2026 Christoph Guttandin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9189,11 +9223,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-worker-timers-broker@6.1.8
+worker-timers@8.0.31
 
 MIT License
 
-Copyright (c) 2024 Christoph Guttandin
+Copyright (c) 2026 Christoph Guttandin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9214,11 +9248,36 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 *****
-worker-timers-worker@7.0.71
+worker-timers-broker@8.0.16
 
 MIT License
 
-Copyright (c) 2024 Christoph Guttandin
+Copyright (c) 2026 Christoph Guttandin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*****
+worker-timers-worker@9.0.14
+
+MIT License
+
+Copyright (c) 2026 Christoph Guttandin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9324,7 +9383,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [ws-server-options]: ./doc/ws.md#new-websocketserveroptions-callback
 
 *****
-ws@8.19.0
+ws@8.20.0
 
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
 Copyright (c) 2013 Arnout Kazemier and contributors
@@ -9395,30 +9454,6 @@ xmlbuilder@11.0.1
 The MIT License (MIT)
 
 Copyright (c) 2013 Ozgur Ozcitak
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-*****
-xtend@4.0.2
-
-The MIT License (MIT)
-Copyright (c) 2012-2014 Raynos.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
