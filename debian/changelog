@@ -1,3 +1,9 @@
+revpi-nodered (1.9.3-1+deb12+1) bookworm; urgency=medium
+
+  * fix: Update Node-RED to 4.1.8
+
+ -- Sven Sager <s.sager@kunbus.com>  Fri, 17 Apr 2026 11:03:56 +0200
+
 revpi-nodered (1.9.2-1+deb12+1) bookworm; urgency=medium
 
   * fix: Update Node-RED to 4.1.4
