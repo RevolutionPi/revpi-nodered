@@ -1,6 +1,6 @@
 ---
 name: bcryptjs
-version: 3.0.2
+version: 3.0.3
 type: npm
 summary: Optimized bcrypt in plain JavaScript with zero dependencies, with TypeScript
   support. Compatible to 'bcrypt'.
