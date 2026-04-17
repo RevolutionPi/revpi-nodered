@@ -1,6 +1,6 @@
 ---
 name: sax
-version: 1.4.4
+version: 1.6.0
 type: npm
 summary: An evented streaming XML parser in JavaScript
 homepage:
