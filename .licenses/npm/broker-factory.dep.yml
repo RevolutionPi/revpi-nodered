@@ -1,6 +1,6 @@
 ---
 name: broker-factory
-version: 3.1.14
+version: 3.1.15
 type: npm
 summary: A little factory function to create a broker for a JSON-RPC based Web Worker.
 homepage: https://github.com/chrisguttandin/broker-factory
