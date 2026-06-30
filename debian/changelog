@@ -1,3 +1,10 @@
+revpi-nodered (1.9.4-1+deb13+1) trixie; urgency=medium
+
+  * fix: Set node-red-contrib-revpi-nodes dependency to 1.2.3
+  * fix: Update Node-RED to 4.1.11
+
+ -- Sven Sager <s.sager@kunbus.com>  Tue, 30 Jun 2026 10:58:54 +0200
+
 revpi-nodered (1.9.3-1+deb13+1) trixie; urgency=medium
 
   * fix: Update Node-RED to 4.1.8
