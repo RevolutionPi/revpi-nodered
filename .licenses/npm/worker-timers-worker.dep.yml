@@ -1,6 +1,6 @@
 ---
 name: worker-timers-worker
-version: 9.0.14
+version: 9.0.15
 type: npm
 summary: The worker which is used by the worker-timers package.
 homepage: https://github.com/chrisguttandin/worker-timers-worker

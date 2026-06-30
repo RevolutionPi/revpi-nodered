@@ -1,6 +1,6 @@
 ---
 name: worker-factory
-version: 7.0.49
+version: 7.0.50
 type: npm
 summary: A little factory function to create a JSON-RPC based Web Worker implementation.
 homepage: https://github.com/chrisguttandin/worker-factory

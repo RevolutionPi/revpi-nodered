@@ -1,6 +1,6 @@
 ---
 name: node-red-contrib-revpi-nodes
-version: 1.2.2
+version: 1.2.3
 type: npm
 summary: KUNBUS RevPi Nodes
 homepage:

@@ -1,6 +1,6 @@
 ---
 name: worker-timers-broker
-version: 8.0.16
+version: 8.0.18
 type: npm
 summary: The broker which is used by the worker-timers package.
 homepage: https://github.com/chrisguttandin/worker-timers-broker

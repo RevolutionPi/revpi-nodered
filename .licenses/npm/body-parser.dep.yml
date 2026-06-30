@@ -1,6 +1,6 @@
 ---
 name: body-parser
-version: 1.20.4
+version: 1.20.5
 type: npm
 summary: Node.js body parsing middleware
 homepage:
