@@ -1,6 +1,6 @@
 ---
 name: worker-timers
-version: 8.0.31
+version: 8.0.33
 type: npm
 summary: A replacement for setInterval() and setTimeout() which works in unfocused
   windows.
